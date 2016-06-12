@@ -1,0 +1,553 @@
+			body{
+				margin: 0px;
+				padding: 0px;
+				background: url('.././images/bg.png');
+				//background-size: cover;
+				background-attachment: fixed;
+			}
+			#wrapper{
+				height: 2135px;
+				width: 1100px;
+				background-color: #fff;
+				margin: auto;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				border-radius: 5px;
+			}
+			#header{
+				height: 140px;
+				width: 1100px;
+				//background-color: #000;
+				float: left;
+			}
+			#logo{
+				height: 90px;
+				width: 105px;
+				background: url('.././images/logo.png');
+				background-size: cover;
+				margin: 30px 0px 0px 20px;
+				float: left;
+			}
+			@font-face {
+    				font-family: AunchantedExpandedBoldOblique;
+    				src: url('.././fonts/AunchantedExpandedBoldOblique/AunchantedExpandedBoldOblique.woff');
+				}
+			#logo-name{
+				height: 100px;
+				width: 300px;
+				background-color: #fff;
+				float: left;
+				margin: 32px 0px 0px 5px;
+				font-size: 40px;
+				font-family: AunchantedExpandedBoldOblique;
+				color: #1BADE7;
+			}
+			#nav-bar{
+				height: 60px;
+				width: 560px;
+				//background-color: #aaa;
+				float: right;
+				margin: 50px 10px 0px 0px;
+			}
+			@font-face{
+				font-family: YanoneKaffeesatz;
+    			src: url('.././fonts/YanoneKaffeesatz.woff');
+			}
+			.nav-icons{
+				height: 41px;
+				width: 110px;
+				background-color: #fff;
+				text-align: center;
+				float: left;
+				padding: 15px 13px 0px 12px;
+				font-size: 22px;
+				margin-left: 5px; 
+				font-family: YanoneKaffeesatz;
+			}
+			.nav-active{
+				border-bottom: solid 4px #DB3332;
+			}
+			.nav-icons:hover{
+				border-bottom: solid 4px #DB3332;
+			}
+			a{
+				text-decoration: none;
+				color: #000;
+			}
+			#categories-wrapper{
+				height: 810px;
+				width: 1100px;
+				//margin: 100px auto 0px auto;
+			}
+			#categories-title{
+				height: 50px;
+				width: 1000px;
+				//padding-top: 10px;
+				font-size: 27px;
+				padding-left: 45px;
+				border-bottom: 2px solid #777;
+				float: left;
+				margin-left: 27px;
+				font-family: YanoneKaffeesatz;
+				//background-color: #ddd;
+			}
+			#categories{
+				height: 680px;
+				width: 1100px;
+				//background-color: #CCC;
+				float: left;
+				font-family: YanoneKaffeesatz;
+			}
+			.product-logo{
+				height: 200px;
+				width: 220px;
+				background-color: #fff;
+				float: left;
+				overflow: hidden;
+				margin: 20px 0px 0px 44px;
+				border-radius: 5px;
+				//font-weight: bold;
+			}
+			.product-image{
+				height: 170px;
+				width: 220px;
+				overflow: hidden;
+				//z-index: 1;
+			}
+			.product-name{
+				height: 30px;
+				width: 220px;
+				float: left;
+				//padding-top: 1px;
+				//background-color: #777;
+				color: #1BADE7;
+				text-align: center;
+				font-size: 22px;
+				//z-index: 5;
+			}
+			.product-logo:hover .product-name{
+				background-color: #DB3332;
+				color: #fff;
+				transition: 0.5s;
+			}
+			.transition {
+			    -webkit-transform: scale(1.2); 
+			    -moz-transform: scale(1.2);
+			    -o-transform: scale(1.2);
+			    transform: scale(1.2);
+			}
+			.image {
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+				-o-transition: all .2s ease-in-out;
+				-ms-transition: all .2s ease-in-out;
+			}
+			.company-showcase{
+				height: 150px;
+				width: 1050px;
+				//background-color: #000;
+				//float: left;
+				margin: auto;
+				overflow: hidden;
+			}
+			#marquee-horizontal li{
+				list-style: none;
+				float: left;
+				margin-right: 30px;
+				margin-top: 15px;
+				cursor: pointer;
+			}
+			#company-title{
+				height: 50px;
+				width: 1000px;
+				margin-top: 10px;
+				font-size: 27px;
+				padding-left: 45px;
+				border-bottom: 2px solid #777;
+				float: left;
+				margin-left: 27px;
+				font-family: YanoneKaffeesatz;
+				//background-color: #ddd;
+			}
+			.nav-icons ul{
+				padding: 0px;
+				margin: 0px;
+				list-style: none;
+				//z-index: 50;
+				display: none;
+				position: relative;
+				top: 17px;
+				left: -12px;
+			}
+			.nav-icons li{
+				background-color: #fff;
+				width: 123px;
+				height: auto;
+				padding: 5px;
+				border: 1px solid #DB3332;
+			}
+			.nav-icons:hover ul{
+				display: block;
+				z-index: 5;
+			}
+			.nav-icons li:hover{
+				background-color: #DB3332;
+				color: #fff;
+			}
+			#steps{
+				background-color: #44B1C1;
+				height: 150px;
+				width: 1100px;
+				padding-top: 50px;
+				margin-top: 10px;
+				float: left;
+			}
+			.step-block{
+				height: 100px;
+				width: 300px;
+				float: left;
+				margin-left: 53px;
+				//background-color: #fff;
+			}
+			.circle{
+				height: 30px;
+				width: 30px;
+				border-radius: 100%;
+				padding: 10px;
+				border: 2px solid #fff;
+				font-size: 28px;
+				color: #fff;
+				text-align: center;
+				float: left;
+				margin-bottom: 20px;
+			}
+			.head-text{
+				color: #fff;
+				font-size: 40px;
+				//float: left;
+				margin-left: 5px;
+				font-family: YanoneKaffeesatz;
+			}
+			.sub-text{
+				margin-left: 5px;
+				font-size: 14px;
+				color: #fff;
+				font-family: sans-serif;
+			}
+			#footer{
+				background-color: #313030;
+				height: 300px;
+				width: 1100px;
+				float: left;
+			}
+			#reg{
+				background-color: #272626;
+				padding: 5px 0px 5px 0px;
+				color: #fff;
+				font-family: sans-serif;
+				text-align: center;
+				height: auto;
+				font-size: 14px;
+				width: 1100px;
+				float: left;
+				border-radius: 0px 0px 5px 5px;
+			}
+			.foot-block{
+				height: auto;
+				width: 300px;
+				//background-color: #000;
+				float: left;
+				margin-left: 50px;
+				margin-top: 20px;
+				font-family: YanoneKaffeesatz;
+				font-size: 22px;
+				color: #fff;
+			}
+			.foot-block a{
+				color: #fff;
+			}
+			.foot-block .sm{
+				font-size: 40px;
+				margin-left: 10px;
+				margin-top: 30px;
+			}
+			.fb:hover{
+				color: #3B5998;
+			}
+			.in:hover{
+				color: #0177B5;
+			}
+			.gplus:hover{
+				color: #DD4B39;
+			}
+			#foot-btn{
+				height: 20px;
+				width: 90px;
+				padding: 7px;
+				text-align: center;
+				color: #fff;
+				background-color: #2977F7;
+				margin-top: 30px;
+				//margin-left: 20px;
+				font-size: 17px;
+				border-radius: 7px;
+			}
+			#nav-location{
+				height: 40px;
+				width: 1030px;
+				padding-top: 10px;
+				float: left;
+				margin-left: 35px;
+				//background-color: #000;
+				border-bottom: 1px solid #777;
+				border-top: 1px solid #777;	
+				font-family: YanoneKaffeesatz;
+				font-size: 22px;
+			}
+			#nav-location span{
+				margin: 0px 10px 0px 10px;
+			}
+			.main-category{
+				color: #1BADE7;
+				//font-weight: bolder;
+				font-size: 24px;
+			}
+			.product-wrapper{
+				height: 2615px;
+				width: 1100px;
+				background-color: #fff;
+				margin: auto;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				border-radius: 5px;
+			}
+			#product-content{
+				height: 2100px;
+				width: 1030px;
+				float: left;
+				margin-left: 35px;
+				background-color: #fff;
+			}
+			#product-decp{
+				height: 2100px;
+				width: 800px;
+				background-color: #fff;
+				float: left;
+				border-right: 1px solid #777;
+			}
+			#product-list{
+				height: 2100px;
+				width: 225px;
+				//background-color: #0000ff;
+				float: left;
+			}
+			#prd-list{
+				list-style: none;
+				padding: 0px;
+				margin: 0px;
+			}
+			#prd-list span{
+				margin-left: 20px;
+			}
+			#product-list h3{
+				color: #1BADE7;
+				font-family: YanoneKaffeesatz;
+				font-weight: normal;
+				font-size: 25px;
+				text-decoration: underline;
+			}
+			#prd-list li{
+				background-color: #fff;
+				width: 229px;
+				height: auto;
+				padding: 5px;
+				font-family: YanoneKaffeesatz;
+				font-size: 21px;
+			}
+			#prd-list li:hover{
+				//background-color: #1BADE7;
+				color: #1BADE7;
+				font-size: 22px;
+			}
+			.prd-decp{
+				font-family: YanoneKaffeesatz;
+				height: auto;
+				width: 400px;
+				margin-left: 10px;
+				font-size: 22px;
+				float: left;
+			}
+			#product-title{
+				color: #1BADE7;
+				font-family: YanoneKaffeesatz;
+				font-size: 40px;
+				//background-color: #777;
+				padding-left: 10px;
+			}
+			#product-decp img{
+				float: left;
+				margin: 10px 0 0 50px;
+			}
+			#catalog{
+				height: 400px;
+				width: 750px;
+				float: left;
+				//margin-left: 50px;
+				//background-color: #000;
+				margin-top: 50px;
+			}
+			.flip,.panel{
+				padding:5px;
+				text-align:center;
+				background-color:#fff;
+				border:solid 1px #c3c3c3;
+				font-family: YanoneKaffeesatz;
+				font-size: 22px;
+			}
+			.flip{
+				background-color: #ddd;
+				cursor: pointer;
+			}
+			#catalog-title{
+				color: #1BADE7;
+				font-family: YanoneKaffeesatz;
+				font-size: 25px;
+				//background-color: #777;
+				padding-left: 10px;
+			}
+			.panel{
+				display: none;
+			}
+			.panel table{
+				font-size: 18px;
+			}
+			.contact-wrapper{
+				height: 1507px;
+				width: 1100px;
+				background-color: #fff;
+				margin: auto;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				border-radius: 5px;
+			}
+			#contact-content{
+				height: 780px;
+				width: 1030px;
+				float: left;
+				margin-left: 35px;
+				//background-color: #777;
+			}
+			#form{
+				height: 780px;
+				width: 500px;
+				//background-color: #000;
+				float: left;
+			}
+			#form p{
+				color: #1BADE7;
+				font-family: YanoneKaffeesatz;
+				font-size: 45px;
+			}
+			#form .fa{
+				font-size: 25px;
+				margin-left: 10px;
+			}
+			#form input{
+				height: 50px;
+				width: 400px;
+				border-radius: 7px;
+				border: solid thin #777;
+				font-size: 20px;
+				padding: 5px;
+				margin-left: 20px;
+				margin-top: 10px;
+				color: #333;
+			}
+			#msg{
+				height: 300px;
+				width: 400px;
+				border-radius: 7px;
+				border: solid thin #777;
+				font-size: 19px;
+				margin-left: 20px;
+				margin-top: 10px;
+				padding: 10px;
+				font-family: sans-serif;
+				color: #333;
+			}
+			#form button{
+				height: 50px;
+				width: 200px;
+				color: #fff;
+				background-color: #1BADE7;
+				border: transparent;
+				float: right;
+				margin-right: 50px;
+				margin-top: 20px;
+				font-size: 18px;
+				border-radius: 70px;
+				cursor: pointer;
+			}
+			#form button .fa{
+				font-size: 18px;
+			}
+			.fa-comment-o{
+				float: left;
+				margin-top: 20px;
+			}
+			#form button:hover{
+				-webkit-box-shadow: 4px 4px 0px 0px rgba(70,110,180,1);
+				-moz-box-shadow: 4px 4px 0px 0px rgba(70,110,180,1);
+				box-shadow: 4px 4px 0px 0px rgba(70,110,180,1);
+			}
+			#location{
+				height: 780px;
+				width: 530px;
+				//background-color: #000;
+				float: left;
+			}
+			#location p{
+				color: #1BADE7;
+				font-family: YanoneKaffeesatz;
+				font-size: 35px;
+				margin-top: 50px;
+			}
+			#map{
+				height: 350px;
+				width: 530px;
+				margin-top: 60px;
+				//background-color: #777;
+				border-radius: 7px;
+			}
+			#location .fa{
+				color: #1BADE7;
+				font-size: 22px;
+			}
+			#info{
+				font-family: sans-serif;
+				font-size: 19px;
+				color: #444;
+			}
+			#info .bold{
+				//font-weight: bold;
+				color: #222;
+
+			}
+			#spnTop{
+				position: fixed;
+			 	right: 60px;
+			 	bottom: 20px;
+			 	text-decoration: none;
+			 	color: white;
+			 	background-color: rgba(0,0,0,0.3);
+			 	font-size: 18px;
+			 	padding: 15px;
+			 	display: none;
+			 	border: transparent;
+			 	border-radius: 7px;
+			 	cursor: pointer;
+			}
+			#spnTop:hover{
+				background-color: #1BADE7;
+				opacity: 0.7;
+			}
